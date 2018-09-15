@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/title_aids"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="一键救援"
+        android:textColor="#fff"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        />
+    <Button
+        android:id="@+id/title_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="位置信息"
+        android:textColor="#fff"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        />
+    <Button
+        android:id="@+id/title_knowledge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="急救知识"
+        android:textColor="#fff"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        />
+</LinearLayout>

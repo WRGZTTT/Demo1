@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="251dp"
+        android:text="3.请翻转患者身体使其平躺于地面或硬板床。"
+        android:textSize="25sp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="182dp"
+        android:text="翻转时保证患者整体转动，保护颈部"
+        android:textSize="25sp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="111dp"
+        android:text="请跪于患者右侧，左膝关节与患者肩部平齐"
+        android:textSize="25sp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="69dp"
+        android:text="解开患者衣领领带以及拉链"
+        android:textSize="25sp"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/xffs1"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/next2"
+        android:layout_width="107dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="39dp"
+        android:text="下一步"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="39dp" />
+
+    <Button
+        android:id="@+id/back1"
+        android:layout_width="107dp"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="39dp"
+        android:text="上一步"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="39dp" />
+
+</RelativeLayout>

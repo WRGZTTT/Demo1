@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4">
+
+    <Button
+        android:id="@+id/back2"
+        android:layout_width="98dp"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:text="上一步"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        />
+
+    <Button
+        android:id="@+id/anya1"
+        android:layout_width="103dp"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="胸外按压" />
+
+    <Button
+        android:id="@+id/huxi1"
+        android:layout_width="98dp"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="26dp"
+        android:text="人工呼吸"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="187dp"
+        android:text="4.检查患者有无颈动脉搏动，并评估其有无呼吸，时间5~10秒"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="96dp"
+        android:text="如无脉搏，立即进行胸外心脏按压。"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="281dp"
+        android:background="@drawable/xffs2" />
+
+</RelativeLayout>

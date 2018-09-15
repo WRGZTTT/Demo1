@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wegz.demo1">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- SD卡读取权限，用户写入离线定位数据 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 添加访问网络的权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/biaoti"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="VoYY9DSTWlqiOSznALYcjGO0P5VY7aNI" />
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".LocationService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".Help" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Register" />
+
+        <service
+            android:name=".LongRunningService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".MapActivity"
+            android:parentActivityName=".FirstActivity" />
+        <activity android:name=".FirstActivity"
+        android:parentActivityName=".FirstActivity" />
+        <activity android:name=".SecondActivity"
+            android:parentActivityName=".FirstActivity" />
+        <activity android:name=".FourthActivity"
+            android:parentActivityName=".FirstActivity" />
+        <activity android:name=".FifthActivity"
+            android:parentActivityName=".FirstActivity" />
+        <activity android:name=".Fifth1Activity" />
+        <activity android:name=".Fifth2Activity" />
+        <activity android:name=".Fifth3Activity" />
+        <activity android:name=".Fifth4Activity" />
+        <activity android:name=".TitleLayout" />
+        <activity android:name=".Fifth5Activity"></activity>
+    </application>
+
+</manifest>

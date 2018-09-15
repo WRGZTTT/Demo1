@@ -1,0 +1,3 @@
+*.unitypackage filter=lfs diff=lfs merge=lfs -text
+*.Demo1 filter=lfs diff=lfs merge=lfs -text
+*.D:/Users/Demo1 filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">急救测试版</string>
+    <string name="第一个按钮" />
+    <string name="bt1">第一个按钮</string>
+    <string name="bt2">第二个按钮</string>
+    <string name="bt3">第三个按钮</string>
+    <string name="bt4">latitude</string>
+</resources>
